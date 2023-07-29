@@ -3,140 +3,235 @@
 {
     margin : 0px;
     padding :0px;
+}
 
-}
-#item1{
+.nav-item{
     background-color: #7ceec2;
     margin:10px;
     padding:10px;
     font-size:20px;
+    font-family: serif;
+    font-weight: 600;
 }
-#item2{
-    background-color: #7ceec2;
-    margin:10px;
-    padding:10px;
-    font-size:20px;
-}
-#item3{
-    background-color: #7ceec2;
-    margin:10px;
-    padding:10px;
-    font-size:20px;
-}
-#item4{
-    background-color: #7ceec2;
-    margin:10px;
-    padding:10px;
-    font-size:20px;
-}
-#item5{
-    background-color: #7ceec2;
-    margin:10px;
-    padding:10px;
-    font-size:20px;
-}
+
 li{
     background-color: #c4f4e2;
 }
-h1{
-    color: rgb(3, 71, 48);
-    font-family: "Lucida Console", "Courier New", monospace;
-    text-align: center;
-    font-size: 40px;
-    padding-top :40px;
-}
+
  .navbar-nav .nav-link {
     color: #077a4e;
     font-size: 1.1em;
-  
-}
-.nav-link a{
-    background-color: #421504;
 }
 
  .navbar-nav .nav-link:hover{
     color: #f0eeeef3;
     background-color: rgb(26, 108, 55);
 }
+
 .navbar{
     background-color: rgb(178, 244, 222);
      border : 5px solid #1c5b54;
 }
+
 .navbar-brand
 {
   color: #1c5b54;
+font-weight: 700;
   font-size : 38px ;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: serif;
 }
+
 .navbar-toggler
 {
     color :  #1c5b54;
     background-color:rgb(8, 90, 63) ;
 }
+
 .navbar-toggler:hover{
     color: #421504;
     background-color: rgb(110, 35, 5);
-
 }
+
 .bg{
     background-image: url("https://c0.wallpaperflare.com/preview/958/733/299/blank-diary-flower-notebook-thumbnail.jpg");
      background-size :cover;
        height :100vh ;
-       /* flex-wrap: wrap; */
      background-repeat: no-repeat;
    } 
 
+.bg h1{
+    color: rgb(3, 71, 48);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bolder;
+    padding-top:40px;
+   }
 
 .bg p {
     text-align: center;
     font-size : 32px;
     margin : 20px;
-    font-family: "Lucida Console", "Courier New", monospace;
-}
-.bg a{
-    background: rgb(86, 203, 135);
-    padding:10px 18px ;
-    text-decoration: none;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-weight: bold;
-    color:rgb(23, 8, 88);
 }
-.bg span{
+
+.bg span
+{
     color:#ee3413 ;
 }
 
 .aboutsection h1{
     font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    color: rgb(3, 71, 48);
+    font-size: 50px;
 }
+
+.aboutsection h3{
+    font-size:2em;
+    font-family: serif;
+}
+
+.aboutsection p{
+    font-size:1.5em;
+}
+
+#about{
+    text-align:center;
+}
+
 .aboutsection{
-   
     border:5px  solid black;
+    border-radius:20px;
+    box-shadow: 10px 20px #787070;
     margin:5%;
     background-image: url("https://png.pngtree.com/background/20210717/original/pngtree-round-leaves-watercolor-green-aesthetic-picture-image_1429594.jpg");
     background-size :cover;
-      height :100vh ;
-      background-repeat: no-repeat;
+    height :100vh ;
+    background-repeat: no-repeat;
 }
+
+.education{
+    border:5px solid black;
+    border-radius:20px;
+    box-shadow: 10px 20px #787070;
+    margin:5%;
+    background-image: url("https://images.vexels.com/content/751/preview/swirly-light-green-background-abaa55.png");
+    background-size :cover;
+    height :100vh ;
+    background-repeat: no-repeat;
+}
+
 .education h1{
     font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    color: rgb(3, 71, 48);
+    font-size: 50px;
+    text-align: center;
 }
 
-
-.skillsection h1{
-    font-family:Georgia, 'Times New Roman', Times, serif;
+.education-box span{
+    color:#2b7842;
+    font-weight:bold;
+    font-size:20px;
 }
+
+.education-container{
+    width:100%;
+    height:auto;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;  
+} 
+
+.education-box{
+    width:25%;
+    height: 250px;
+    background-color: bisque;
+    margin: 20px;
+    text-align: center;
+    border:3px solid rgb(17, 23, 2);
+    border-radius: 20px;
+    padding:20px;
+    box-shadow : 0.5px 10px rgb(109, 104, 109);
+}
+
+.education-box:hover{
+    background-color:rgb(248, 248, 88);
+}
+
+.education h1:hover{
+ color:rgb(248, 248, 88);
+}
+ 
+.education-box h3{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ font-size: 30px;
+}
+
 .skillsection
 {
     border:5px  solid black;
+    border-radius:20px;
+    box-shadow: 10px 20px #787070;
     margin:5%;
     background-image: url("https://png.pngtree.com/background/20210716/original/pngtree-beautiful-green-spring-light-effect-floral-background-picture-image_1338865.jpg");
     background-size :cover;
-      height :100vh ;
-      background-repeat: no-repeat;
+    height :100vh ;
+    background-repeat: no-repeat;
+}
+
+.skill-header h2{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    color: rgb(3, 71, 48);
+    font-size: 50px;
+    text-align: center;
+}
+.skill-header h2 span{
+    color:red;
+}
+
+.skill-header p{
+    font-size: 20px;
+    font-weight:bold;
+    text-align:center;
+}
+
+.skill-main{
+    width:80% ;
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-column-gap: 50px;
+   margin:10%;
+    
+}
+.skill-main .skill-bar .info{
+    display: flex;
+    justify-content:space-between;
+    padding: 10px;
+}
+.skill-bar .bar{
+    width:100%;
+    height:20px;
+    position:relative;
+    background-color: #8b8585;
+    border: 3px solid black;
+    border-radius: 25px;
+}
+.skill-main p{
+    font-size: 30px;
+
+}
+.skill-bar .bar span{
+    width:50%;
+    height:100%;
+    position:absolute;
+    background-color:rgb(227, 23, 23);
+    border-radius:25px;
 }
 .contactsection
-{
-    
+{  
     background-image: url("https://cdn.wallpapersafari.com/43/49/Ymv1PI.jpg");
     background-size :cover;
       height :100vh ;
@@ -147,150 +242,147 @@ h1{
       flex-direction: column;
       align-items: center;
       border: 5px solid black;
+      border-radius:20px;
+    box-shadow: 10px 20px #787070;
       padding: 20px;
       margin:5%;
      
 }
-
-
-footer span:hover{
-
-    color : rgb(239, 239, 18);
-}
-#about{
-    text-align:center;
-}
-#about p{
-    font-size: 20px;
-}
-.skill-header{
-    width : 100%;
-    margin-bottom: 70px;
-    display:grid;
-    place-items: center;
-    text-align: center;
-}
-.skill-header h2{
+.contactsection h1{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
     color: rgb(3, 71, 48);
-    font-family: "Lucida Console", "Courier New", monospace;
-
-    font-size: 40px;
-}
-.skill-header h2 span{
-    color:red;
-}
-.skill-main{
-    width:97% ;
-    display:grid;
-    grid-template-columns: repeat(2,1fr);
-    grid-column-gap: 50px;
-    grid-row-gap: 20px;
-    margin-top: 5px;
-    
-}
-.skill-main .skill-bar .info{
-    display: flex;
-    justify-content:space-between;
-    padding: 10px;
-}
-.skill-bar .bar{
-    width:100%;
-    height:10px;
-    position:relative;
-    background-color: #8b8585;
-    border-radius: 25px;
-}
-.skill-main p{
-    font-size: 32px;
-}
-.skill-bar .bar span{
-    width:50%;
-    height:100%;
-    position:absolute;
-    background-color:rgb(227, 23, 23);
-    border-radius:25px;
+    font-size: 50px;
+    text-align: center;
 }
 
 .contact-form h2{
     font-size: 30px;
     color:#421504;
     font-weight:500;
+    text-align: center;
 
 }
-.hii{
+.input-box{
+    text-align: center;
+
+}
+.contact-content{
     display:flex;
   border:5px solid black;
-  padding:20px;
+  width:75%;
+  height:500px;
 }
-.containeone{
-    margin:10px;
-    width:50%;
+.contactinfo{
+    padding:20px;
+    height:300px;
+    margin:30px;
 }
 .contact-form{
     padding:40px;
     background:white;
-    margin:5%;
-    width:50%;
-   
-}
-#head{
-    font-family:Georgia, 'Times New Roman', Times, serif;
-}
-.education{
-    border:5px  solid black;
-    margin:5%;
-    background-image: url("https://images.vexels.com/content/751/preview/swirly-light-green-background-abaa55.png");
-    background-size :cover;
-      height :100vh ;
-      background-repeat: no-repeat;
-}
-/* .education{
-    border:5px  solid black;
-    margin:5%;
-    background-image: url("https://images.vexels.com/content/751/preview/swirly-light-green-background-abaa55.png");
-    background-size :cover;
-      height :100vh ;
-      background-repeat: no-repeat;
-}
-.education-container{
-    display:flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    padding:1rem 0 ;
-    padding-left:3rem;
-    
-
-} */
- .education-container{
-    width:100%;
-    height:auto;
-    display:flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    
-    
-} 
-
-
-.education-box{
-    width:25%;
-    height: 200px;
-    background-color: bisque;
-    margin: 20px;
-    text-align: center;
-    border:3px solid rgb(17, 23, 2);
+    border:2px solid green;
     border-radius: 20px;
-    padding:20px;
-    box-shadow : 0.5px 10px rgb(109, 104, 109);
-  
+    margin:30px;
+    height:400px;
+    width:50%;  
+}
 
-} 
-.education-box:hover{
-    background-color:yellow;
+
+.grid{
+    height: 400px;
+    width:100%;
+    background-color: black;
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap:30px;
 }
-.education h1:hover{
- color:yellow;
+.row{
+    margin:20px;
+ text-align: center;
+ 
 }
+.row h1{
+    color:darkgoldenrod;
+    font-size: 35px;
+    font-family: sans-serif;
+    font-weight: 300;
+    /* font-family: Arial, "Helvetica Neue", Helvetica, sans-serif; */
+
+}
+.row h1:hover{
+    color:red;
+}
+.row span{
+    color:white;
+    /* font-family: Arial, "Helvetica Neue", Helvetica, sans-serif; */
+    font-family: sans-serif;
+    font-weight: 300;
+}
+.row span:hover{
+    color:yellow;
+}
+.last-icons{
+    display:flex;
+   flex-direction: row;
+   justify-content: center;
+    background-color: rgb(157, 243, 203);
+}
+.facebook i{
+    margin:20px;
+    padding:5px;
+    border:3px solid black;
+    border-radius:10px;
+    color:blue;
+ 
+    font-size: 40px;
+}
+
+.linkedin i{
+    margin:20px;
+    padding:5px;
+    border:3px solid black;
+    border-radius:10px;
+    color:blue;
+    font-size: 40px;
+}
+.twitter i{
+    margin:20px;
+    padding:5px;
+    border:3px solid black;
+    border-radius:10px;
+    color:rgb(216, 199, 7); 
+    font-size: 40px;
+}
+.youtube i{
+    margin:20px;
+    padding:5px;
+    border:3px solid black;
+    border-radius:10px;
+    color:rgb(224, 48, 13); 
+    font-size: 40px;
+
+}
+.instagram i{
+    margin:20px;
+    padding:5px;
+    border:3px solid black;
+    border-radius:10px;
+   color:rgb(174, 8, 163);
+    font-size: 40px;
+}
+.whatsapp i{
+    margin:20px;
+    padding:5px;
+    border:3px solid black;
+    border-radius:10px;
+   color:rgb(31, 187, 31);
+    font-size: 40px;
+}
+ 
+
+
+
+
 
 
