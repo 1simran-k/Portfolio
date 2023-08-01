@@ -93,8 +93,14 @@ font-weight: 700;
 }
 
 .aboutsection p{
-    font-size:1.5em;
+    font-size:1.3em;
 }
+@media only screen and (max-width:700px){
+.aboutsection p
+{
+    font-size:1em;
+}
+} 
 
 #about{
     text-align:center;
@@ -137,8 +143,8 @@ font-weight: 700;
 }
 
 .education-container{
-    width:100%;
-    height:auto;
+    width:90%;
+    height:80%;
     display:flex;
     flex-wrap: wrap;
     justify-content: center;  
@@ -146,7 +152,7 @@ font-weight: 700;
 
 .education-box{
     width:25%;
-    height: 250px;
+    height: 35%;
     background-color: bisque;
     margin: 20px;
     text-align: center;
@@ -155,6 +161,7 @@ font-weight: 700;
     padding:20px;
     box-shadow : 0.5px 10px rgb(109, 104, 109);
 }
+
 
 .education-box:hover{
     background-color:rgb(248, 248, 88);
