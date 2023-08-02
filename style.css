@@ -94,6 +94,7 @@ font-weight: 700;
 
 .aboutsection p{
     font-size:1.3em;
+    font-family:Georgia, 'Times New Roman', Times, serif;
 }
 @media only screen and (max-width:700px){
 .aboutsection p
@@ -140,6 +141,7 @@ font-weight: 700;
     color:#2b7842;
     font-weight:bold;
     font-size:20px;
+    font-family:Arial, Helvetica, sans-serif;
 }
 
 .education-container{
@@ -160,6 +162,8 @@ font-weight: 700;
     border-radius: 20px;
     padding:20px;
     box-shadow : 0.5px 10px rgb(109, 104, 109);
+    font-size:12px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
 
